@@ -1,0 +1,23 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <textarea id="json-input" cols="50" rows="40" >{firstName:"John", lastName:"Doe"}</textarea>
+        <button id="btn-convert">convert</button>
+        
+        <script>
+            var btn=document.getElementById("btn-convert");
+            btn.addEventListener('click',function(){
+
+            var input=document.getElementById("json-input").value;
+            var input2=input.replace(/\\'/g, "'");
+            console.log(JSON.parse(input2));
+            //console.log(JSON.parse(input));
+            // var obj= {firstName:"John", lastName:"Doe"};
+            // console.log( JSON.stringify( obj));
+        });
+        </script>
+
+    </body>
+</html>
