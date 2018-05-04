@@ -1,7 +1,6 @@
 # json_beautifier
-this is an json_beautify_application
 
-<p><strong><span style="font-size: 24px;">JSON Beautifier</span></strong></p>
+<p><strong><span style="font-size: 24px;">About JSON Beautifier</span></strong></p>
 
 <p>This is a application which will help a lot of Developers and Tester to verify their json data which is unreadable in raw format.</p>
 
